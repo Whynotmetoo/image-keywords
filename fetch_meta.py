@@ -25,7 +25,7 @@ def generate_image_metadata(image_path):
             prompt = f"""
             You are an expert in creating SEO-friendly image titles and keywords for stock photography.
             Generate a compelling, searchable title, try to make it longer, but no more then 20 words.
-            Generate 50 relevant, high-traffic keywords, two of them are Long Tail Keywords.
+            Generate 50 relevant, high-traffic keywords, two of them are Long Tail Keywords. The first 10 words are more important.
             Please give your response in json format.
             """
             response = client.beta.chat.completions.parse(
