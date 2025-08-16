@@ -46,5 +46,5 @@ def process_image_directory(directory):
 
 if __name__ == "__main__":
     # replace it with your path
-    image_directory = os.path.join(os.path.dirname(__file__), 'Jan-2025')
+    image_directory = os.path.join(os.path.dirname(__file__), 'Aug-2025')
     process_image_directory(image_directory)
